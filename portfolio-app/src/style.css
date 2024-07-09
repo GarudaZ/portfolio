@@ -76,9 +76,32 @@ button:focus-visible {
 header {
 	grid-row: second-line;
 	padding: 8vh;
+	text-align: right;
 }
 main {
 	grid-row: first-line;
 	text-align: left;
 	padding: 8vh;
+}
+.rotating-word {
+	animation: rotate-text 2s infinite;
+	color: rgb(252, 62, 37);
+}
+
+@keyframes rotate-text {
+	0% {
+		transform: translate3d(0, 30px, 0);
+		opacity: 0;
+	}
+
+	30%,
+	80% {
+		transform: translate3d(0, 0, 0);
+		opacity: 1;
+	}
+
+	100% {
+		transform: translate3d(0, -10px, 0);
+		opacity: 0;
+	}
 }
