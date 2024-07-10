@@ -1,7 +1,9 @@
 <template>
-	<p>Hi</p>
-	<p>I'm Gareth Austin</p>
-	<RotatingWords />
+	<div class="welcome">
+		<p>Hi</p>
+		<p>I'm Gareth Austin</p>
+		<RotatingWords />
+	</div>
 </template>
 
 <script>
@@ -14,3 +16,9 @@ export default {
 	},
 };
 </script>
+
+<style scoped>
+.welcome {
+	font-size: 38px;
+}
+</style>
