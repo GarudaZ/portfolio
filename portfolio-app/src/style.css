@@ -5,7 +5,7 @@
 
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
-	background-color: #242424;
+	background-color: #282a36;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -15,11 +15,11 @@
 
 a {
 	font-weight: 500;
-	color: #646cff;
+	color: #bd93f9;
 	text-decoration: inherit;
 }
 a:hover {
-	color: #535bf2;
+	color: #8be9fd;
 }
 
 body {
@@ -60,19 +60,6 @@ button:focus-visible {
 	padding: 2em;
 }
 
-@media (prefers-color-scheme: light) {
-	:root {
-		color: #213547;
-		background-color: #ffffff;
-	}
-	a:hover {
-		color: #747bff;
-	}
-	button {
-		background-color: #f9f9f9;
-	}
-}
-
 header {
 	grid-row: second-line;
 	padding: 8vh;
@@ -85,7 +72,6 @@ main {
 }
 .rotating-word {
 	animation: rotate-text 2s infinite;
-	color: rgb(252, 62, 37);
 }
 
 @keyframes rotate-text {
