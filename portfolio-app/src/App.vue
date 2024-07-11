@@ -30,4 +30,7 @@ const currentView = computed(() => {
 	<main>
 		<component :is="currentView" />
 	</main>
+	<footer>
+		<p>Gareth Austin 2024</p>
+	</footer>
 </template>

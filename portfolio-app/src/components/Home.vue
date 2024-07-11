@@ -30,8 +30,6 @@
 				I love learning new technology and you can take a look at what I've been
 				<a href="#/projects">working on here.</a>
 			</p>
-			<!-- <a [routerLink]="[ '/projects', routeParam ]">here</a> -->
-			<!-- <a :to="{ path: '(/projects)' }">here</a> -->
 		</article>
 		<aside>
 			<p style="font-size: 18pt">

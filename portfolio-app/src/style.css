@@ -73,6 +73,12 @@ main {
 	text-align: left;
 	padding: 8vh;
 }
+
+footer {
+	grid-row: third-line;
+	text-align: right;
+}
+
 .rotating-word {
 	animation: rotate-text 2s infinite;
 }
@@ -115,4 +121,11 @@ aside {
 	aside {
 		grid-column: 2;
 	}
+}
+
+.card {
+	border: #1a1a1a;
+	border-style: outset;
+	border-radius: 20px;
+	list-style-type: none;
 }
