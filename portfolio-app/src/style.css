@@ -40,6 +40,10 @@ h1 {
 	line-height: 1.1;
 }
 
+h2 {
+	color: #bd93f9;
+}
+
 button {
 	border-radius: 8px;
 	border: 1px solid transparent;
@@ -57,10 +61,6 @@ button:hover {
 button:focus,
 button:focus-visible {
 	outline: 4px auto -webkit-focus-ring-color;
-}
-
-.card {
-	padding: 2em;
 }
 
 header {
@@ -129,4 +129,11 @@ aside {
 	border-style: outset;
 	border-radius: 20px;
 	list-style-type: none;
+	padding: 2em;
+	margin: 1em;
+}
+
+img {
+	max-width: 100%;
+	border-radius: 10px;
 }

@@ -5,9 +5,7 @@
 			<p>
 				I'm
 
-				<span style="font-weight: 800"
-					>Gareth Austin <span style="color: #bd93f9"> G</span></span
-				>
+				<span style="font-weight: 800">Gareth Austin</span>
 			</p>
 			<RotatingWords />
 		</div>
