@@ -5,7 +5,9 @@
 			<p>
 				I'm
 
-				<span style="font-weight: 800">Gareth Austin</span>
+				<span style="font-weight: 800"
+					>Gareth Austin <span style="color: #bd93f9"> G</span></span
+				>
 			</p>
 			<RotatingWords />
 		</div>
@@ -32,10 +34,10 @@
 			</p>
 		</article>
 		<aside>
-			<p style="font-size: 18pt">
-				Get in touch:
+			<div style="font-size: 18pt">
+				<p>Get in touch:</p>
 				<a href="mailto: garethjaustin@gmail.com">garethjaustin@gmail.com </a>
-			</p>
+			</div>
 		</aside>
 	</div>
 </template>
