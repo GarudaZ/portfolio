@@ -21,6 +21,9 @@ a {
 a:hover {
 	color: #8be9fd;
 }
+.other-link {
+	color: #ff79c6;
+}
 
 li {
 	list-style-type: none;
@@ -121,8 +124,8 @@ aside {
 }
 
 .card {
-	border: #1a1a1a;
-	border-style: outset;
+	border: #44475a;
+	border-style: solid;
 	border-radius: 20px;
 	list-style-type: none;
 	padding: 2em;
@@ -135,7 +138,6 @@ aside {
 }
 .tag {
 	font-weight: 600;
-	border: #ffb86c;
 	border-radius: 10px;
 	padding: 10px;
 	margin: 0;
@@ -145,7 +147,24 @@ aside {
 	margin: 0;
 	color: #1a1a1a;
 }
+.tech-tags {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	margin-top: 1em;
+}
 
+.tech-tags .tag {
+	background-color: #50fa7b;
+	margin-right: 15px;
+}
+
+.cards-container {
+	grid-column: 1;
+}
+.overview {
+	min-width: 20vw;
+}
 img {
 	max-width: 100%;
 	border-radius: 10px;
@@ -157,5 +176,11 @@ img {
 	}
 	aside {
 		grid-column: 2;
+	}
+	.cards-container {
+		grid-column: 2;
+		display: grid;
+		grid-template-columns: auto auto;
+		gap: 1vh 1vw;
 	}
 }

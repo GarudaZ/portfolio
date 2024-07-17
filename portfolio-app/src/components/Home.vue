@@ -23,12 +23,14 @@
 			<p>
 				An experienced public speaker with a love of the English Language, I
 				have a masters in English Literature and, as an ordained Buddhist, I
-				teach meditation and Buddhism at my local centre. I'm open for work so
-				feel free to get in touch.
+				teach meditation and Buddhism at my local centre.
 			</p>
 			<p>
 				I love learning new technology and you can take a look at what I've been
-				<a href="#/projects">working on here.</a>
+				<a href="#/projects">working on here.</a> You can see
+				<a class="other-link" href="#/about"
+					>more about me and my skills here.</a
+				>I'm open for work so feel free to get in touch.
 			</p>
 		</article>
 		<aside>

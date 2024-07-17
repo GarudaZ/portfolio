@@ -10,9 +10,9 @@ export default {
 		return {
 			words: [
 				"Software Developer",
-				"Software Engineer",
 				"Frontend Developer",
 				"Backend Developer",
+				"Software Engineer",
 				"JavaScript Developer",
 			],
 			colours: ["#ff5555", "#8be9fd", "#ffb86c", "#ff79c6", "#bd93f9"],
