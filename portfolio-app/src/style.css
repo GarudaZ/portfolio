@@ -23,7 +23,7 @@ a:hover {
 }
 
 body {
-	margin: 2vh;
+	margin: 2vh 2vw 2vh 2vw;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 25% auto;
@@ -33,7 +33,7 @@ body {
 .container {
 	display: grid;
 	grid-template-columns: 1fr auto;
-	gap: 10px 30px;
+	gap: 1vh 3vw;
 }
 h1 {
 	font-size: 3.2em;
@@ -65,14 +65,14 @@ button:focus-visible {
 
 header {
 	grid-row: second-line;
-	padding: 8vh 9vh 1vh 9vh;
+	padding: 8vh 8vw 1vh 8vw;
 	text-align: right;
 	font-size: 18pt;
 }
 main {
 	grid-row: first-line;
 	text-align: left;
-	padding: 1vh 9vh 8vh 9vh;
+	padding: 1vh 8vw 8vh 8vw;
 }
 
 footer {
@@ -115,7 +115,7 @@ aside {
 	grid-column-end: 2;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
 	article {
 		grid-column: 1;
 	}
