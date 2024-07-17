@@ -6,7 +6,7 @@ const projects = ref([
 	{
 		name: "Portfolio",
 		screenshot: "portfolio-screenshot.png",
-		desc: "This portfolio",
+		desc: "The portfolio you're looking at now was built with Vue and makes use of the Dracula theme.",
 		github: "https://github.com/GarudaZ/portfolio",
 		hosted: "You're here now!",
 		wip: true,
@@ -29,7 +29,7 @@ const projects = ref([
 		beGithub: "https://github.com/GarudaZ/nc-news",
 		hosted: "https://ncnewsnow.netlify.app/",
 		wip:false,
-		tech: ["React", "Express", "HTML", "CSS", "Javascript"]
+		tech: ["React", "Express", "Javascript"]
 	},
 ]);
 </script>
@@ -47,8 +47,11 @@ const projects = ref([
 		<li v-for="project in projects" class="card">
 				<div class="card-header">
 					<h2>{{ project.name }}</h2>
-					<div v-if="project.wip" class="tag" style="background-color: #8BE9FD;">
-						<p >IN PROGRESS</p>
+					<div class="card-header-right">
+						<div v-if="project.wip" class="tag" style="background-color: #8BE9FD;">
+							<p >IN PROGRESS</p>
+						</div>
+						<a target="_blank" :href="project.github"><img style="width: 40px; margin-left: 1em;" src="/github-logo.png" alt="github logo"/></a>
 					</div>
 				</div>
 			<a target="_blank" :href="project.hosted">

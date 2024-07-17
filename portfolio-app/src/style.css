@@ -2,6 +2,7 @@
 	font-family: Raleway, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
+	font-size: 1.2em;
 
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
@@ -54,6 +55,7 @@ h1 {
 }
 
 h2 {
+	font-size: 1.8em;
 	color: #bd93f9;
 }
 
@@ -80,7 +82,7 @@ header {
 	grid-row: second-line;
 	padding: 8vh 8vw 1vh 8vw;
 	text-align: right;
-	font-size: 18pt;
+	font-size: 1.5em;
 }
 main {
 	grid-row: first-line;
@@ -140,6 +142,11 @@ aside {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
+}
+.card-header-right {
+	display: flex;
+	flex-direction: row;
 }
 .tag {
 	font-weight: 600;
@@ -185,7 +192,7 @@ img {
 	.cards-container {
 		grid-column: 2;
 		display: grid;
-		grid-template-columns: auto auto;
+		grid-template-columns: 50% 50%;
 		gap: 1vh 1vw;
 	}
 }
