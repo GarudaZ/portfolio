@@ -22,6 +22,11 @@ a:hover {
 	color: #8be9fd;
 }
 
+li {
+	list-style-type: none;
+	padding-bottom: 5px;
+}
+
 body {
 	margin: 2vh 2vw 2vh 2vw;
 	display: grid;
@@ -115,15 +120,6 @@ aside {
 	grid-column-end: 2;
 }
 
-@media (min-width: 900px) {
-	article {
-		grid-column: 1;
-	}
-	aside {
-		grid-column: 2;
-	}
-}
-
 .card {
 	border: #1a1a1a;
 	border-style: outset;
@@ -132,8 +128,34 @@ aside {
 	padding: 2em;
 	margin: 1em;
 }
+.card-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.tag {
+	font-weight: 600;
+	border: #ffb86c;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0;
+	align-self: center;
+}
+.tag p {
+	margin: 0;
+	color: #1a1a1a;
+}
 
 img {
 	max-width: 100%;
 	border-radius: 10px;
+}
+
+@media (min-width: 1000px) {
+	article {
+		grid-column: 1;
+	}
+	aside {
+		grid-column: 2;
+	}
 }

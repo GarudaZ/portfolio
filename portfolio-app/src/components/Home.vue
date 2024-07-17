@@ -33,8 +33,18 @@
 		</article>
 		<aside>
 			<div style="font-size: 18pt">
-				<p>Get in touch:</p>
-				<a href="mailto: garethjaustin@gmail.com">garethjaustin@gmail.com </a>
+				<h2 style="color: rgba(255, 255, 255, 0.87)">Get in touch:</h2>
+				<li>
+					<a href="mailto: garethjaustin@gmail.com">garethjaustin@gmail.com </a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/gareth-austin-1bb12b301/"
+						>Linkedin
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/GarudaZ">GitHub</a>
+				</li>
 			</div>
 		</aside>
 	</div>
