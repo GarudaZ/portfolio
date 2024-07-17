@@ -43,7 +43,6 @@ const projects = ref([
 				technology and skills were involved in each of them.
 			</p>
 		</div>
-		<!-- <div> -->
 		<ul class="cards-container">
 			<li v-for="project in projects" :key="project.name" class="card">
 				<div class="card-header">
@@ -94,6 +93,5 @@ const projects = ref([
 				</div>
 			</li>
 		</ul>
-		<!-- </div> -->
 	</div>
 </template>
