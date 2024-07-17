@@ -26,6 +26,11 @@ a:hover {
 	color: #ff79c6;
 }
 
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
 li {
 	list-style-type: none;
 	padding-bottom: 5px;
@@ -176,6 +181,7 @@ aside {
 }
 .overview {
 	min-width: 20vw;
+	grid-column: 1 2;
 }
 img {
 	max-width: 100%;
@@ -191,8 +197,16 @@ img {
 	}
 	.cards-container {
 		grid-column: 2;
+
+		gap: 1vh 1vw;
+	}
+	.overview {
+		grid-column: 1;
+	}
+}
+@media (min-width: 1450px) {
+	.cards-container {
 		display: grid;
 		grid-template-columns: 50% 50%;
-		gap: 1vh 1vw;
 	}
 }
