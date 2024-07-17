@@ -30,6 +30,11 @@ li {
 	padding-bottom: 5px;
 }
 
+.highlight {
+	font-weight: 800;
+	color: #ff79c6;
+}
+
 body {
 	margin: 2vh 2vw 2vh 2vw;
 	display: grid;
