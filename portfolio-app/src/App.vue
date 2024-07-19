@@ -41,6 +41,6 @@ const applyHighlight = (path) => {
 		<component :is="currentView" />
 	</main>
 	<footer>
-		<p>Gareth Austin 2024</p>
+		<p>Made by Gareth Austin 2024</p>
 	</footer>
 </template>
