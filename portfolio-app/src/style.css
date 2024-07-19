@@ -186,6 +186,19 @@ img {
 	max-width: 100%;
 	border-radius: 10px;
 }
+section {
+	grid-column: 1;
+}
+.section-head {
+	color: #bd93f9;
+	min-width: 15vw;
+	grid-column: 1;
+}
+@media (min-width: 650px) {
+	section {
+		grid-column: 2;
+	}
+}
 
 @media (min-width: 1000px) {
 	article {
@@ -207,5 +220,9 @@ img {
 	.cards-container {
 		display: grid;
 		grid-template-columns: 50% 50%;
+	}
+	.list-container {
+		display: grid;
+		grid-template-columns: 25% 25% 25% 25%;
 	}
 }
