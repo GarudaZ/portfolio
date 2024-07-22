@@ -14,7 +14,7 @@ This template should help get you started developing with Vue 3 and TypeScript i
 
 I've chosen to deploy to github.io so the portfolio is connected to my github account where the projects are hosted. I had a preexisting github pages project, the base branch just needed updating.
 
-## Deploy to github.io:
+## Deploy to github.io
 
 ```bash
 npm run build
@@ -36,7 +36,7 @@ If you haven't already installed gh-pages, install it:
 npm install --save-dev gh-pages
 ```
 
-2. Update package.json Scripts
+1. Update package.json Scripts
    Add the following scripts to your package.json:
 
    ```json
@@ -47,4 +47,4 @@ npm install --save-dev gh-pages
    }
    ```
 
-3. Further updates will be published when the 'npm run deploy' script is used.
+1. Further updates will be published when the 'npm run deploy' script is used.
