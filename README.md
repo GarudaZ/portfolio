@@ -2,7 +2,7 @@
 
 ## Scaffolding provided by Vite
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
 ## Recommended Setup
 
@@ -30,11 +30,11 @@ git push -f origin master
 
 1. Ensure gh-pages is Installed
 
-If you haven't already installed gh-pages, install it:
+   If you haven't already installed gh-pages, install it:
 
-```bash
-npm install --save-dev gh-pages
-```
+   ```bash
+   npm install --save-dev gh-pages
+   ```
 
 1. Update package.json Scripts
    Add the following scripts to your package.json:
@@ -49,4 +49,4 @@ npm install --save-dev gh-pages
 
 1. Further updates will be published when the 'npm run deploy' script is used.
 
-You may need to clear cache if updates to the github pages site are showing in the code but not in the browser.
+   You may need to clear cache if updates to the github pages site are showing in the code but not in the browser.
