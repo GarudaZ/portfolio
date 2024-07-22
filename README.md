@@ -48,3 +48,5 @@ npm install --save-dev gh-pages
    ```
 
 1. Further updates will be published when the 'npm run deploy' script is used.
+
+You may need to clear cache if updates to the github pages site are showing in the code but not in the browser.
