@@ -1,46 +1,29 @@
+<template>
+  <header>
+    <router-link :class="applyHighlight('/')" to="/">Home</router-link> |
+    <router-link :class="applyHighlight('/about')" to="/about">About</router-link> |
+    <router-link :class="applyHighlight('/projects')" to="/projects">Projects</router-link>
+  </header>
+  <main>
+    <router-view></router-view>
+  </main>
+  <footer>
+    <p>Made by Gareth Austin 2024</p>
+  </footer>
+</template>
+
 <script setup>
-import { ref, computed } from "vue";
-import Home from "./components/Home.vue";
-import About from "./components/About.vue";
-import Projects from "./components/Projects.vue";
-import NotFound from "./components/NotFound.vue";
+import { useRoute } from 'vue-router';
 
-const routes = {
-	"/": Home,
-	"/about": About,
-	"/projects": Projects,
-};
-
-const currentPath = ref(window.location.pathname);
-
-window.addEventListener("popstate", () => {
-	currentPath.value = window.location.pathname;
-});
-
-const navigate = (path) => {
-	window.history.pushState({}, path, path);
-	currentPath.value = path;
-};
-
-const currentView = computed(() => {
-	return routes[currentPath.value] || NotFound;
-});
+const route = useRoute();
 
 const applyHighlight = (path) => {
-	return currentPath.value === path ? "highlight" : "";
+  return route.path === path ? 'highlight' : '';
 };
 </script>
 
-<template>
-	<header>
-		<a :class="applyHighlight('/')" href="/">Home</a> |
-		<a :class="applyHighlight('/about')" href="/about">About</a> |
-		<a :class="applyHighlight('/projects')" href="/projects">Projects</a>
-	</header>
-	<main>
-		<component :is="currentView" />
-	</main>
-	<footer>
-		<p>Made by Gareth Austin 2024</p>
-	</footer>
-</template>
+<style>
+.highlight {
+  font-weight: bold;
+}
+</style>
