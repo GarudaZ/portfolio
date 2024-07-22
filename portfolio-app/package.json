@@ -8,7 +8,7 @@
 		"build": "vue-tsc && vite build",
 		"predeploy": "npm run build",
 		"preview": "vite preview",
-		"deploy": "gh-pages -d dist -b master"
+		"deploy": "gh-pages -d dist -r https://github.com/GarudaZ/GarudaZ.github.io.git -b master"
 	},
 	"dependencies": {
 		"vue": "^3.4.21",

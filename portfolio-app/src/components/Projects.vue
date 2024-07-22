@@ -55,7 +55,7 @@ const projects = ref([
 							class="tag"
 							style="background-color: #8be9fd"
 						>
-							<p>IN PROGRESS TEST</p>
+							<p>IN PROGRESS</p>
 						</div>
 						<a target="_blank" :href="project.github">
 							<img
