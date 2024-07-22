@@ -22,4 +22,4 @@ git push -f origin master
 
 ## Updating
 
-Further updates will be published automatically when pushed to the github.io repo.
+Further updates will be published when the 'npm run deploy' script is used.
