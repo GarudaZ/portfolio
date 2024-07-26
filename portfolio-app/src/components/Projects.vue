@@ -6,7 +6,7 @@ const projects = ref([
 	{
 		name: "Portfolio",
 		screenshot: "portfolio-screenshot.png",
-		desc: "The portfolio you're looking at now was built with Vue and makes use of the Dracula theme.",
+		desc: "The portfolio you're looking at now was built with Vue and makes use of the Dracula theme. It's hosted on Github pages, so it's very closely connected to my Github account.",
 		github: "https://github.com/GarudaZ/portfolio",
 		hosted: "You're here now!",
 		wip: true,
@@ -15,7 +15,7 @@ const projects = ref([
 	{
 		name: "Tetriplan",
 		screenshot: "tetriplan-screenshot.png",
-		desc: "A time blocking app made using Angular and MongoDB",
+		desc: "A time blocking app made using Angular and MongoDB. Login is handled using Firebase to provide seemless intregration with google and email accounts.",
 		github: "https://github.com/GarudaZ/tetriplan-frontend",
 		hosted: "https://tetriplan.netlify.app",
 		wip: false,
@@ -24,7 +24,7 @@ const projects = ref([
 	{
 		name: "NC News",
 		screenshot: "ncnews-screenshot.png",
-		desc: "A news web app with the ability to vote and comment on articles.",
+		desc: "A news web app with the ability to vote and comment on articles, inspired by Reddit and produced during my time on the Northcoders course.",
 		github: "https://github.com/GarudaZ/fe-nc-news",
 		beGithub: "https://github.com/GarudaZ/nc-news",
 		hosted: "https://ncnewsnow.netlify.app/",
