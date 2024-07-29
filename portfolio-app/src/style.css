@@ -201,25 +201,34 @@ section {
 	grid-column: 1;
 }
 
+.logo {
+	min-width: 70px;
+	max-width: 70px;
+	margin-right: 8px;
+}
 @media screen and (max-width: 600px) {
 	.container {
 		gap: 0;
 	}
 
 	:root {
-		font-size: 3vw;
+		font-size: 3.5vw;
 	}
 	h1 {
-		font-size: 8vw;
+		font-size: 10vw;
 	}
 	h2 {
-		font-size: 6vw;
+		font-size: 8vw;
+		margin: 0;
 	}
 	.tag p {
-		font-size: 3.5vw;
+		font-size: 4vw;
 	}
 	.card-header {
 		display: block;
+	}
+	.card-header-right {
+		margin: 1em 0;
 	}
 }
 

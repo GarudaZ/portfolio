@@ -4,11 +4,11 @@
 		<h2 class="section-head">Me</h2>
 		<section>
 			<p>
-				I was born in Bath but have lived most of my life in the Midlands, where
-				I'm currently based. I've followed my passions so far in life, that was
-				what led me to study literature at university, and to work for the
-				Nottingham Buddhist Centre. I love learning and building new things as
-				well as playing with new technology, the journey to becoming a
+				I was born in Bath but have lived most of my life in the Midlands. I'm
+				currently based in Nottingham. I've followed my passions so far in life,
+				that was what led me to study literature at university, and to work for
+				the Nottingham Buddhist Centre. I love learning and building new things
+				as well as playing with new technology, the journey to becoming a
 				programmer has been a natural expression of that.
 			</p>
 			<p>
@@ -25,13 +25,39 @@
 			<div>
 				<h3>Front-End</h3>
 				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Javascript</li>
-					<li>Typescript</li>
-					<li>React</li>
-					<li>Angular</li>
-					<li>Vue</li>
+					<li>
+						<img
+							class="logo"
+							src="/HTML5_logo_and_wordmark.svg.png"
+							alt="HTML logo"
+						/>HTML
+					</li>
+					<li><img class="logo" src="/css_logo.png" alt="CSS logo" /> CSS</li>
+					<li>
+						<img
+							class="logo"
+							src="/javascript-logo.png"
+							alt="js logo"
+						/>Javascript
+					</li>
+					<li>
+						<img
+							class="logo"
+							src="/Typescript_logo.png"
+							alt="Typescript Logo"
+						/>Typescript
+					</li>
+					<li>
+						<img class="logo" src="/react_logo.png" alt="React Logo" />React
+					</li>
+					<li>
+						<img
+							class="logo"
+							src="/angular_logo.png"
+							alt="Angular Logo"
+						/>Angular
+					</li>
+					<li><img class="logo" src="/vue_logo.png" alt="Vue Logo" />Vue</li>
 				</ul>
 			</div>
 			<div>
