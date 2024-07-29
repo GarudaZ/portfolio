@@ -140,7 +140,7 @@ aside {
 	border-radius: 20px;
 	list-style-type: none;
 	padding: 2em;
-	margin: 1em;
+	margin-bottom: 1em;
 }
 .card-header {
 	display: flex;
@@ -155,7 +155,7 @@ aside {
 .tag {
 	font-weight: 600;
 	border-radius: 10px;
-	padding: 10px;
+	padding: 8px;
 	margin: 0;
 	align-self: center;
 }
@@ -224,5 +224,8 @@ section {
 	.list-container {
 		display: grid;
 		grid-template-columns: 25% 25% 25% 25%;
+	}
+	.card {
+		margin: 1em;
 	}
 }
