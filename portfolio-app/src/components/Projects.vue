@@ -59,7 +59,7 @@ const projects = ref([
 						</div>
 						<a target="_blank" :href="project.github">
 							<img
-								style="width: 40px; margin-left: 1em"
+								style="width: 10vw; max-width: 40px; margin-left: 1em"
 								src="/github-logo.png"
 								alt="github logo"
 							/>

@@ -42,17 +42,18 @@ li {
 }
 
 body {
-	margin: 2vh 2vw 2vh 2vw;
+	margin: 2vh 2vw;
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 25% auto;
-	min-width: 320px;
+	grid-template-rows: 25vh auto 25vh;
+	min-width: 280px;
 	min-height: 100vh;
 }
 .container {
 	display: grid;
 	grid-template-columns: 1fr auto;
 	gap: 1vh 3vw;
+	width: 100%;
 }
 h1 {
 	font-size: 3.2em;
@@ -83,19 +84,19 @@ button:focus-visible {
 }
 
 header {
-	grid-row: second-line;
+	grid-row: 1;
 	padding: 8vh 8vw 1vh 8vw;
 	text-align: right;
 	font-size: 1.5em;
 }
 main {
-	grid-row: first-line;
+	grid-row: 2;
 	text-align: left;
-	padding: 1vh 8vw 8vh 8vw;
+	padding: 1vh 7vw 7vh 7vw;
 }
 
 footer {
-	grid-row: third-line;
+	grid-row: 3;
 	text-align: right;
 }
 
@@ -129,6 +130,9 @@ article {
 	grid-column-start: 1;
 	grid-column-end: 2;
 }
+p {
+	font-size: 1.2em;
+}
 aside {
 	grid-column-start: 1;
 	grid-column-end: 2;
@@ -139,7 +143,7 @@ aside {
 	border-style: solid;
 	border-radius: 20px;
 	list-style-type: none;
-	padding: 2em;
+	padding: 1.5em;
 	margin-bottom: 1em;
 }
 .card-header {
@@ -177,15 +181,17 @@ aside {
 
 .cards-container {
 	grid-column: 1;
+	max-width: 86vw;
 }
 .overview {
-	min-width: 20vw;
+	min-width: 15vw;
 	grid-column: 1 2;
 }
 img {
 	max-width: 100%;
 	border-radius: 10px;
 }
+
 section {
 	grid-column: 1;
 }
@@ -194,7 +200,30 @@ section {
 	min-width: 15vw;
 	grid-column: 1;
 }
-@media (min-width: 650px) {
+
+@media screen and (max-width: 600px) {
+	.container {
+		gap: 0;
+	}
+
+	:root {
+		font-size: 3vw;
+	}
+	h1 {
+		font-size: 8vw;
+	}
+	h2 {
+		font-size: 6vw;
+	}
+	.tag p {
+		font-size: 3.5vw;
+	}
+	.card-header {
+		display: block;
+	}
+}
+
+@media (min-width: 600px) {
 	section {
 		grid-column: 2;
 	}
@@ -227,5 +256,8 @@ section {
 	}
 	.card {
 		margin: 1em;
+	}
+	img {
+		max-width: 100%;
 	}
 }

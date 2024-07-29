@@ -10,7 +10,7 @@
 			<RotatingWords />
 		</div>
 
-		<article style="font-size: 16pt">
+		<article>
 			<p>
 				Having discovered I had a taste for software development in my last
 				role, I completed automation projects using Google Apps Script that
