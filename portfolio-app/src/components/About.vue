@@ -12,8 +12,8 @@
 				programmer has been a natural expression of that.
 			</p>
 			<p>
-				After a couple of years of learning from apps and books, I attend a
-				Northcoders bootcamp and immersed myself in coder of three months. I
+				After a couple of years of learning from apps and books, I attended a
+				Northcoders bootcamp and immersed myself in coding for three months. I
 				loved it, the course was intense but it really confirmed that
 				development was something I found rewarding. Since then I've continued
 				<a href="/projects">working on projects,</a>
