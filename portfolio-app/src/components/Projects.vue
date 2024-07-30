@@ -62,7 +62,7 @@ const projects = ref([
 						>
 							<p>IN PROGRESS</p>
 						</div>
-						<a target="_blank" :href="project.github">
+						<a v-if="project.github" target="_blank" :href="project.github">
 							<img
 								style="width: 10vw; max-width: 40px; margin-left: 1em"
 								src="/github-logo.png"

@@ -63,10 +63,26 @@
 			<div>
 				<h3>Back-End</h3>
 				<ul>
-					<li>express</li>
-					<li>mondgoDB</li>
-					<li>sqlLite</li>
-					<li>PostreSql</li>
+					<li>
+						<img
+							class="logo"
+							src="/express_logo.png"
+							alt="express logo"
+						/>express
+					</li>
+					<li>
+						<img class="logo" src="/mongodb.png" alt="mongoDB logo" />mondgoDB
+					</li>
+					<li>
+						<img class="logo" src="/SQLite_logo.png" alt="SQLite logo" />SQLite
+					</li>
+					<li>
+						<img
+							class="logo"
+							src="/postgresql_logo.png"
+							alt="PostgreSQl logo"
+						/>PostreSQL
+					</li>
 				</ul>
 			</div>
 			<div>
