@@ -14,6 +14,20 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+body {
+	margin: 2vh 2vw;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 25vh auto 25vh;
+	min-width: 280px;
+	min-height: 100vh;
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	gap: 1vh 3vw;
+	width: 100%;
+}
 a {
 	font-weight: 400;
 	color: #bd93f9;
@@ -41,20 +55,6 @@ li {
 	color: #ff79c6;
 }
 
-body {
-	margin: 2vh 2vw;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 25vh auto 25vh;
-	min-width: 280px;
-	min-height: 100vh;
-}
-.container {
-	display: grid;
-	grid-template-columns: 1fr auto;
-	gap: 1vh 3vw;
-	width: 100%;
-}
 h1 {
 	font-size: 3.2em;
 	line-height: 1.1;
@@ -206,6 +206,11 @@ section {
 	max-width: 70px;
 	margin-right: 8px;
 }
+.list-container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
 @media screen and (max-width: 600px) {
 	:root {
 		font-size: 3.5vw;
