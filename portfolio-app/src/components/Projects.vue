@@ -4,6 +4,11 @@ import { ref } from "vue";
 const parentMessage = ref("Parent");
 const projects = ref([
 	{
+		name: "ReView",
+		desc: "A day review app that adds functionality to google tasks. I'm building it for my own use and as a chance to try out another framework. I'm still in the spiking phase.",
+		wip: true,
+	},
+	{
 		name: "Portfolio",
 		screenshot: "portfolio-screenshot.png",
 		desc: "The portfolio you're looking at now was built with Vue and makes use of the Dracula theme. It's hosted on Github pages, so it's very closely connected to my Github account.",
@@ -15,7 +20,7 @@ const projects = ref([
 	{
 		name: "Tetriplan",
 		screenshot: "tetriplan-screenshot.png",
-		desc: "A time blocking app made using Angular and MongoDB. Login is handled using Firebase to provide seemless intregration with google and email accounts.",
+		desc: "A time blocking app made using Angular and MongoDB. Login is handled using Firebase to provide seamless integration with google and email accounts.",
 		github: "https://github.com/GarudaZ/tetriplan-frontend",
 		hosted: "https://tetriplan.netlify.app",
 		wip: false,
@@ -40,7 +45,7 @@ const projects = ref([
 		<div class="overview">
 			<p>
 				Here are my coding projects, past and present. You can also see what
-				technology and skills were involved in each of them.
+				technology and skills were involved in making each of them.
 			</p>
 		</div>
 		<ul class="cards-container">
@@ -66,7 +71,7 @@ const projects = ref([
 						</a>
 					</div>
 				</div>
-				<a target="_blank" :href="project.hosted">
+				<a v-if="project.screenshot" target="_blank" :href="project.hosted">
 					<img :src="project.screenshot" alt="Screenshot of the project" />
 				</a>
 				<div class="tech-tags">
@@ -75,7 +80,7 @@ const projects = ref([
 					</div>
 				</div>
 				<p>{{ project.desc }}</p>
-				<div style="padding: 0">
+				<div v-if="project.github" style="padding: 0">
 					<p>
 						GitHub: <a :href="project.github">{{ project.github }}</a>
 					</p>
@@ -86,7 +91,7 @@ const projects = ref([
 						<a :href="project.beGithub">{{ project.beGithub }}</a>
 					</p>
 				</div>
-				<div>
+				<div v-if="project.hosted">
 					<p>
 						Hosted: <a :href="project.hosted">{{ project.hosted }}</a>
 					</p>
