@@ -20,7 +20,7 @@ const projects = ref([
 	{
 		name: "Tetriplan",
 		screenshot: "tetriplan-screenshot.png",
-		desc: "A time blocking app made using Angular and MongoDB. Login is handled using Firebase to provide seamless integration with google and email accounts.",
+		desc: "A time blocking app made using Angular and MongoDB. Login is handled using Firebase to provide seamless integration with google and email accounts. This was created as a team project during my course at Northcoders",
 		github: "https://github.com/GarudaZ/tetriplan-frontend",
 		hosted: "https://tetriplan.netlify.app",
 		wip: false,
