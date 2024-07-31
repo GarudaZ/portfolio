@@ -88,7 +88,9 @@
 			<div>
 				<h3>Testing</h3>
 				<ul>
-					<li>Jest</li>
+					<li>
+						<img class="logo" src="/jest-js-icon.png" alt="Jest js logo" />Jest
+					</li>
 				</ul>
 				<h3>Approaches</h3>
 				<ul>
@@ -99,9 +101,17 @@
 			<div>
 				<h3>Other</h3>
 				<ul>
-					<li>Vite</li>
-					<li>Firebase</li>
-					<li>Node.js</li>
+					<li><img class="logo" src="/vite_logo.png" alt="vite logo" />Vite</li>
+					<li>
+						<img
+							class="logo"
+							src="/firebase_logo.png"
+							alt="firebase logo"
+						/>Firebase
+					</li>
+					<li>
+						<img class="logo" src="/vite_logo.png" alt="vite logo" />Node.js
+					</li>
 				</ul>
 			</div>
 		</section>
