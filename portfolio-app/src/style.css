@@ -211,6 +211,11 @@ section {
 	grid-template-columns: 50% 50%;
 }
 
+.skill {
+	display: flex;
+	align-items: center;
+}
+
 @media screen and (max-width: 600px) {
 	:root {
 		font-size: 3.5vw;

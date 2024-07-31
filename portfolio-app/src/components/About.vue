@@ -25,92 +25,101 @@
 			<div>
 				<h3>Front-End</h3>
 				<ul>
-					<li>
+					<li class="skill">
 						<img
 							class="logo"
 							src="/HTML5_logo_and_wordmark.svg.png"
 							alt="HTML logo"
-						/>HTML
+						/>
+						<p>HTML</p>
 					</li>
-					<li><img class="logo" src="/css_logo.png" alt="CSS logo" /> CSS</li>
-					<li>
-						<img
-							class="logo"
-							src="/javascript-logo.png"
-							alt="js logo"
-						/>Javascript
+					<li class="skill">
+						<img class="logo" src="/css_logo.png" alt="CSS logo" />
+						<p>CSS</p>
 					</li>
-					<li>
+					<li class="skill">
+						<img class="logo" src="/javascript-logo.png" alt="js logo" />
+						<p>Javascript</p>
+					</li>
+					<li class="skill">
 						<img
 							class="logo"
 							src="/Typescript_logo.png"
 							alt="Typescript Logo"
-						/>Typescript
+						/>
+						<p>Typescript</p>
 					</li>
-					<li>
-						<img class="logo" src="/react_logo.png" alt="React Logo" />React
+					<li class="skill">
+						<img class="logo" src="/react_logo.png" alt="React Logo" />
+						<p>React</p>
 					</li>
-					<li>
-						<img
-							class="logo"
-							src="/angular_logo.png"
-							alt="Angular Logo"
-						/>Angular
+					<li class="skill">
+						<img class="logo" src="/angular_logo.png" alt="Angular Logo" />
+						<p>Angular</p>
 					</li>
-					<li><img class="logo" src="/vue_logo.png" alt="Vue Logo" />Vue</li>
+					<li class="skill">
+						<img class="logo" src="/vue_logo.png" alt="Vue Logo" />
+						<p>Vue</p>
+					</li>
 				</ul>
 			</div>
 			<div>
 				<h3>Back-End</h3>
 				<ul>
-					<li>
-						<img
-							class="logo"
-							src="/express_logo.png"
-							alt="express logo"
-						/>express
+					<li class="skill">
+						<img class="logo" src="/express_logo.png" alt="express logo" />
+						<p>express</p>
 					</li>
-					<li>
-						<img class="logo" src="/mongodb.png" alt="mongoDB logo" />mondgoDB
+					<li class="skill">
+						<img class="logo" src="/mongodb.png" alt="mongoDB logo" />
+						<p>mondgoDB</p>
 					</li>
-					<li>
-						<img class="logo" src="/SQLite_logo.png" alt="SQLite logo" />SQLite
+					<li class="skill">
+						<img class="logo" src="/SQLite_logo.png" alt="SQLite logo" />
+						<p>SQLite</p>
 					</li>
-					<li>
+					<li class="skill">
 						<img
 							class="logo"
 							src="/postgresql_logo.png"
 							alt="PostgreSQl logo"
-						/>PostreSQL
+						/>
+						<p>PostreSQL</p>
 					</li>
 				</ul>
 			</div>
 			<div>
 				<h3>Testing</h3>
 				<ul>
-					<li>
-						<img class="logo" src="/jest-js-icon.png" alt="Jest js logo" />Jest
+					<li class="skill">
+						<img class="logo" src="/jest-js-icon.png" alt="Jest js logo" />
+						<p>Jest</p>
 					</li>
 				</ul>
 				<h3>Approaches</h3>
 				<ul>
-					<li>TDD</li>
-					<li>Agile</li>
+					<li class="skill">
+						<p>TDD</p>
+					</li>
+					<li class="skill">
+						<p>Agile</p>
+					</li>
 				</ul>
 			</div>
 			<div>
 				<h3>Other</h3>
 				<ul>
-					<li><img class="logo" src="/vite_logo.png" alt="vite logo" />Vite</li>
-					<li>
-						<img
-							class="logo"
-							src="/firebase_logo.png"
-							alt="firebase logo"
-						/>Firebase
+					<li class="skill">
+						<img class="logo" src="/vite_logo.png" alt="vite logo" />
+						<p>Vite</p>
 					</li>
-					<li>
-						<img class="logo" src="/vite_logo.png" alt="vite logo" />Node.js
+					<li class="skill">
+						<img class="logo" src="/firebase_logo.png" alt="firebase logo" />
+						<p>Firebase</p>
+					</li>
+					<li class="skill">
+						<img class="logo" src="/vite_logo.png" alt="vite logo" />
+						<p>Node.js</p>
 					</li>
 				</ul>
 			</div>
