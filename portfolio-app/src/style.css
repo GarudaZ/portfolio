@@ -170,6 +170,7 @@ aside {
 .tech-tags {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: left;
 	margin-top: 1em;
 }
@@ -177,6 +178,8 @@ aside {
 .tech-tags .tag {
 	background-color: #50fa7b;
 	margin-right: 15px;
+	margin-bottom: 10px;
+	font-size: 0.75em;
 }
 
 .cards-container {
@@ -234,8 +237,8 @@ section {
 		font-size: 8vw;
 		margin: 0;
 	}
-	.tag p {
-		font-size: 4vw;
+	.tech-tags .tag p {
+		font-size: 3.2vw;
 	}
 	.card-header {
 		display: block;
