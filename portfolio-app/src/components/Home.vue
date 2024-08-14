@@ -1,5 +1,6 @@
 <template>
 	<div class="container">
+
 		<div class="welcome">
 			<p>Hi</p>
 			<p>
@@ -9,7 +10,6 @@
 			</p>
 			<RotatingWords />
 		</div>
-
 		<article>
 			<p>
 				Having discovered I had a taste for software development in my last

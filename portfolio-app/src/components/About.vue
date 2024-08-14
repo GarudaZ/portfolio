@@ -1,7 +1,10 @@
 <template>
-	<h1>About</h1>
 	<div class="container">
-		<h2 class="section-head">Me</h2>
+		<h1 class="page-title">About</h1>
+
+		<img class="profile-img" src="/ProfileImage.jpg" alt="Image of Gareth" />
+
+		<h2 class="section-head">Bio</h2>
 		<section>
 			<p>
 				I was born in Bath but have lived most of my life in the Midlands. I'm
