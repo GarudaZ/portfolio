@@ -4,6 +4,13 @@ import { ref } from "vue";
 const parentMessage = ref("Parent");
 const projects = ref([
 	{
+		name: "Infinite Library Backend",
+		desc: "The backend for my virtual book shelf app, an express server with a mongodb database, with a connection to the Open Library api. I explored using superagent instead of axios (which I've used before) for server requests. I also used faker for the first time to generate random isbn numbers for testing purposes.",
+		wip: true,
+		github: "https://github.com/GarudaZ/infinite-library-be",
+		tech: ["express.js", "faker", "superagent", "mongoDB"],
+	},
+	{
 		name: "ReView",
 		desc: "A day review app that adds functionality to google tasks. I'm building it for my own use and as a chance to try out another framework. I'm still in the spiking phase.",
 		wip: true,
@@ -14,7 +21,7 @@ const projects = ref([
 		desc: "The portfolio you're looking at now was built with Vue and makes use of the Dracula theme. It's hosted on Github pages, so it's very closely connected to my Github account.",
 		github: "https://github.com/GarudaZ/portfolio",
 		hosted: "You're here now!",
-		wip: true,
+		wip: false,
 		tech: ["Vue", "CSS", "Vite", "Typescript"],
 	},
 	{
