@@ -8,6 +8,7 @@ const projects = ref([
 		desc: "The backend for my virtual book shelf app, an express server with a mongodb database, with a connection to the Open Library api. I explored using superagent instead of axios (which I've used before) for server requests. I also used faker for the first time to generate random isbn numbers for testing purposes.",
 		wip: true,
 		github: "https://github.com/GarudaZ/infinite-library-be",
+		hosted: "https://infinite-library.vercel.app/api",
 		tech: ["express.js", "faker", "superagent", "mongoDB"],
 	},
 	{
