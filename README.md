@@ -10,6 +10,14 @@ The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs]
 
 - Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
 
+## Developement
+
+Use the following to run a dev server while working on the project locally:
+
+```bash
+npm run dev
+```
+
 ## Deployed to github.io
 
 I've chosen to deploy to github.io so the portfolio is connected to my github account where the projects are hosted. I had a preexisting github pages project, the base branch just needed updating.
