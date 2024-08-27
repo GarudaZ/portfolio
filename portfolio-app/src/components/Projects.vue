@@ -4,18 +4,25 @@ import { ref } from "vue";
 const parentMessage = ref("Parent");
 const projects = ref([
 	{
-		name: "Infinite Library Backend",
+		name: "Infinite Library Front End",
+		desc: "The frontend for my virtual book shelf app, I'm exploring angular some more with this one, especially the more modern standalone component and @for loops. JWT authentication happens on the backend but I'm decoding the token to get some basic user information.",
+		wip: true,
+		github: "https://github.com/GarudaZ/infinite-library-fe",
+		tech: ["angular", "JWT"],
+	},
+	{
+		name: "Infinite Library Back End",
 		desc: "The backend for my virtual book shelf app, an express server with a mongodb database, with a connection to the Open Library api. I explored using superagent instead of axios (which I've used before) for server requests. I also used faker for the first time to generate random isbn numbers for testing purposes.",
 		wip: true,
 		github: "https://github.com/GarudaZ/infinite-library-be",
 		hosted: "https://infinite-library.vercel.app/api",
-		tech: ["express.js", "faker", "superagent", "mongoDB"],
+		tech: ["express.js", "faker", "superagent", "mongoDB", "JWT"],
 	},
-	{
-		name: "ReView",
-		desc: "A day review app that adds functionality to google tasks. I'm building it for my own use and as a chance to try out another framework. I'm still in the spiking phase.",
-		wip: true,
-	},
+	// {
+	// 	name: "ReView",
+	// 	desc: "A day review app that adds functionality to google tasks. I'm building it for my own use and as a chance to try out another framework. I'm still in the spiking phase.",
+	// 	wip: true,
+	// },
 	{
 		name: "Portfolio",
 		screenshot: "portfolio-screenshot.png",
